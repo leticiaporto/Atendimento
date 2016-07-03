@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pm="http://primefaces.org/mobile">
+
+<f:view renderKitId="PRIMEFACES_MOBILE" />
+
+<h:head>
+	<script name="jquery/jquery-plugins.js" library="primefaces"></script>
+</h:head>
+
+<h:body>
+
+	<pm:page id="menu">
+
+		<pm:header title="AgendaInfo" />
+		<pm:content>
+			<h:form id="frmMenu">
+				<p:menu>
+				    <p:menuitem value="Inserir" url="lancamento.html" />
+				    <p:menuitem value="Listar" url="listagem.html" />
+				</p:menu>
+			</h:form>
+			<div align="center">
+				<p:commandButton value="Sair" action="inicio.html" styleClass="ui-btn-inline"/>
+			</div>
+		</pm:content>
+
+	</pm:page>
+
+</h:body>
+
+</html>
