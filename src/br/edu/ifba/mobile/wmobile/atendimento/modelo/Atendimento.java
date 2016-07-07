@@ -65,10 +65,5 @@ public class Atendimento {
 		return "Téc." + nomeTecnico+"|"+nomeCliente+"|"+ situacao;
 	}
 	
-	 
-	
-	
-	
-	
-	
+
 }
